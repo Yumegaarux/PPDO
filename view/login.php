@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-    <div id="container">
-        <h1>Login</h1>
-        <div class="input-field">
-            <input type="text" placeholder="Username" name="user" autocomplete="off" required>
+    <div id="left">
+        <img src="../media/PPDOLogo.png">
+    </div>
+    <div id="right">
+        <div id="input">
+            <input type="text" class="input-field" placeholder="Email" name="user" autocomplete="off" required>
+            <input type="password" class="input-field" placeholder="Password" name="pass" autocomplete="off" required>
         </div>
-        <div class="input-field">
-            <input type="password" placeholder="Password" name="pass" autocomplete="off" required>
-        </div>
-            <button class="btn">Login</button>
+        <button id="btn">Login</button>
     </div>
 </body>
 </html>
